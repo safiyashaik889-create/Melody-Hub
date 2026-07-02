@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#141e30,#243b55);
+    min-height:100vh;
+    color:white;
+    padding:20px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    text-align:center;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+.search-box{
+    margin-bottom:30px;
+}
+
+input{
+    width:60%;
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    outline:none;
+}
+
+button{
+    padding:12px 20px;
+    border:none;
+    border-radius:5px;
+    background:#ff4b2b;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff6b4a;
+}
+
+.results{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    color:black;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.card h3{
+    margin:10px 0;
+}
+
+audio{
+    width:100%;
+    margin-top:10px;
+}
+.loading{
+    text-align:center;
+    font-size:30px;
+    color:white;
+    margin-top:50px;
+}
+
+.card{
+    background:#1b1b2f;
+    color:white;
+    border-radius:20px;
+    overflow:hidden;
+    transition:0.4s;
+    padding:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,.4);
+    animation:fadeIn .6s ease;
+}
+
+.card:hover{
+    transform:translateY(-10px) scale(1.03);
+}
+
+.card img{
+    width:100%;
+    border-radius:15px;
+}
+
+.number{
+    background:#ff0055;
+    color:white;
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.listen-btn{
+    display:block;
+    margin-top:15px;
+    background:#1DB954;
+    color:white;
+    text-decoration:none;
+    padding:12px;
+    border-radius:10px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.listen-btn:hover{
+    background:#159943;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
