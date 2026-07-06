@@ -1,4 +1,4 @@
-[livelink](https://melody-hub.bytexl.live/)
+
 
 # MelodyHub – Music Search Web Application
 
@@ -27,3 +27,6 @@ The application features a modern and responsive user interface with smooth anim
 * JavaScript (ES6)
 * Fetch API
 * iTunes Music Search API
+
+
+[livelink](https://melody-hub.bytexl.live/)
