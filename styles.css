@@ -76,9 +76,25 @@ audio{
 }
 .loading{
     text-align:center;
-    font-size:30px;
+    padding:40px;
     color:white;
-    margin-top:50px;
+}
+
+.loading h2{
+    font-size:32px;
+    margin-bottom:15px;
+    animation:blink 1s infinite;
+}
+
+.loading p{
+    font-size:18px;
+    color:#ddd;
+}
+
+@keyframes blink{
+    0%{opacity:0.3;}
+    50%{opacity:1;}
+    100%{opacity:0.3;}
 }
 
 .card{

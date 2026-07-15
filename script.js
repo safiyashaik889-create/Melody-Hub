@@ -15,6 +15,7 @@ async function searchMusic() {
     resultBox.innerHTML = `
         <div class="loading">
             <h2>🎵 Searching Music...</h2>
+            <p>Please wait while we find your faavourite songs 🎶</p>
         </div>
     `;
 
